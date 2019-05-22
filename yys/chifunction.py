@@ -1,9 +1,9 @@
 # coding=utf-8
 import function
 
-challengePic = function.importPic('challengePic')  # challengePic 开始挑战图片
-endPic = function.importPic('endPic')  # endPic 结束挑战图片
-fudaiPic = function.importPic('fudaiPic')
+challengePic = function.importPic('chi', 'challengePic')  # challengePic 开始挑战图片
+endPic = function.importPic('chi', 'endPic')  # endPic 结束挑战图片
+fudaiPic = function.importPic('chi', 'fudaiPic')
 
 
 def chi(num):
@@ -15,10 +15,10 @@ def chi(num):
         box = function.getWindowInfo()
         pic = function.screenShot(box)  # type: box
         if function.match(pic, challengePic).max() > 0.75:
+            i = i+1
             print 1
             res = function.match(pic, challengePic)
             print res.max()
-            i = i+1
             sp = challengePic.shape
             clickRange = [sp[1], sp[0]]  # 点击范围
             x, y = function.getPoint(res, box[0], box[1], clickRange)

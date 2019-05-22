@@ -46,13 +46,13 @@ def screenShot(box):
     # box为窗口坐标
     randomDelay(0.5, 1)
     insScreenshot = ImageGrab.grab(box)  # 截图
-    insScreenshot.save('d:\yys\insScr.png')  # 截图保存
-    img = cv2.imread('d:\yys\insScr.png', 0)  # 打开图片
+    insScreenshot.save('.\pic\insScr.png')  # 截图保存
+    img = cv2.imread('.\pic\insScr.png', 0)  # 打开图片
     return img
 
 
 def match(img1, img2):
-    # type: (object, object) -> object
+    # type: (截图, 图库的图) -> object
     # 图像匹配
     # img1为即时截图，
     # img2为匹配图
@@ -86,7 +86,7 @@ def getPoint(res, upperLeftCornerXCoordinate, upperLeftCornerYCoordinate, clickR
     return x, y
 
 
-def importPic(picName):
-    str = 'd:\yys\chi\%s.png' % picName
+def importPic(position, picName):
+    str = '.\pic\%s\%s.png' % (position, picName)
     pic = cv2.imread(str, 0)
     return pic
