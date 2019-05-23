@@ -8,8 +8,10 @@ insScreenshot.save('.\pic\insScr.png')  # 截图保存
 position = 'yuling'
 picName = 'victoryPic'
 str = '.\pic\%s\%s.png' % (position, picName)
+print str
 img = cv2.imread(str)
 cv2.namedWindow("Image")
 cv2.imshow("Image", img)
 cv2.waitKey (0)
-print str
+
+

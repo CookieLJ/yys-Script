@@ -21,6 +21,7 @@ def yuling(num):
 			break
 		box = function.getWindowInfo()
 		pic = function.screenShot(box)
+		print 'ScreenShot'
 		if function.match(pic, challengePic).max() > 0.75:
 			i = i+1
 			print 1
@@ -30,8 +31,8 @@ def yuling(num):
 			function.randomDelay(30, 30)		# 时间可以自己设置
 		elif function.match(pic, endPic).max() > 0.75:
 			print 2
-			res = function.match(pic, challengePic)
-			sp = challengePic.shape
+			res = function.match(pic, endPic)
+			sp = endPic.shape
 			clickFunction(sp, res, box)
 			function.randomDelay(0.3, 0.6)
 			clickFunction(sp, res, box)
