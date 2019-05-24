@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab3cbd96-a9fd-49b1-8b1e-7e5702233a92" name="Default Changelist" comment="更新御魂 脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/insScr.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic/insScr.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="377">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -104,8 +103,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1909" />
-    <option name="y" value="26" />
+    <option name="x" value="88" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -151,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -275,11 +273,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.chifunction" />
-      <item itemvalue="Python.partner" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.yuhun" />
       <item itemvalue="Python.yuling" />
+      <item itemvalue="Python.chifunction" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.partner" />
     </list>
     <recent_temporary>
       <list>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558704271438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新御魂 脚本">
+      <created>1558705913399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558705913399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -329,7 +334,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11801897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,10 +345,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.65911484" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.658588" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34088513" side_tool="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.341412" side_tool="true" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,9 +406,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新御魂 脚本" />
     <MESSAGE value="更新队友函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新队友函数" />
+    <MESSAGE value="更新御魂 脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新御魂 脚本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/pip-18.0/setup.py" />
@@ -473,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="377">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
