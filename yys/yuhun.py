@@ -16,12 +16,10 @@ def clickFunction(sp, res, box):
 
 
 def yuhun(num):
-	print 2
 	i = 0
 	while 1:
 		if i == num:
 			break
-		print 3
 		box = function.getWindowInfo()
 		pic = function.screenShot(box)
 		print function.match(pic, startPic).max()
@@ -34,7 +32,7 @@ def yuhun(num):
 			sp = challengePic.shape
 			clickFunction(sp, res, box)
 			function.randomDelay(38, 38)  # 时间可以自己设置
-		elif function.match(pic, endPic).max() > 0.9:
+		elif function.match(pic, endPic).max() > 0.8:
 			print '胜利'
 			res = function.match(pic, endPic)
 			sp = endPic.shape
@@ -44,7 +42,7 @@ def yuhun(num):
 			function.randomDelay(0.3, 0.6)
 			clickFunction(sp, res, box)
 			function.randomDelay(0.3, 0.6)
-		elif function.match(pic, fudaiPic).max() > 0.9:
+		elif function.match(pic, fudaiPic).max() > 0.99:
 			print 3
 			res = function.match(pic, fudaiPic)
 			sp = fudaiPic.shape
@@ -53,6 +51,5 @@ def yuhun(num):
 
 
 if __name__ == '__main__':
-	print 1
 	yuhun(90)
 
